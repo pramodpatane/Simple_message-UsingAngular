@@ -1,0 +1,10 @@
+<!-- <div class="container">
+  <router-outlet></router-outlet>
+</div> -->
+
+<app-header></app-header>
+<main>
+  <app-post-create (postCreated)="onPostAdded($event)">
+  </app-post-create>
+  <app-post-list [posts]="storedPost"></app-post-list>
+</main>

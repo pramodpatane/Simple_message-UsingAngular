@@ -1,0 +1,8 @@
+textarea, mat-form-field {
+    width: 100%;
+    }
+    
+.btnOne {
+    color: white;
+    background-color: orange;
+    }

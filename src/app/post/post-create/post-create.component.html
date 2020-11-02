@@ -1,0 +1,11 @@
+<!-- <h1>This is Post Create Component</h1> -->
+<mat-card>
+    <mat-form-field>
+        <input matInput type="text" [(ngModel)]="enteredTitle" placeholder="EnterTitle">
+    </mat-form-field>
+    <mat-form-field>
+        <textarea matInput rows="6" [(ngModel)]="enteredContent" placeholder="Enter Message"></textarea>
+    </mat-form-field>
+    <button class="btnOne" mat-raised-button color="accent" (click)="onAddPost()">Save Post</button>
+</mat-card>
+<!-- <p>{{ newPost }}</p> -->
